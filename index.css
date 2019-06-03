@@ -1,0 +1,13 @@
+#table
+{
+      display:grid;
+      grid-template-columns: auto auto auto;
+}
+
+#td { 
+
+      background:chocolate;
+      border: 5px solid;
+   }
+
+ 
