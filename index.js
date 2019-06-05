@@ -49,10 +49,16 @@ function colHandler()
       
       let cell= rowlocation.insertCell(-1);
       cell.innerHTML=" "+i;
+      cell.className = "cellBlock";
+      cell.addEventListener('click', changeColor);
   }
 
 }
 
+function changeColor(event){
+   event.target.className = "blue";
+
+}
 
 
 function rowHandler()
